@@ -1,1 +1,15 @@
 # go-wasm
+
+## Setup
+
+build main.wasm from main.go :
+
+```
+GOOS=js GOARCH=wasm go build -o main.wasm
+```
+
+start server usind goexec :
+
+```
+goexec 'http.ListenAndServe(`:8080`, http.FileServer(http.Dir(`.`)))'
+```
