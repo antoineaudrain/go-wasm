@@ -1,5 +1,7 @@
 # go-wasm
 
+Let's learn [Golang](https://golang.org/) and [Web Assembly](https://webassembly.org/)!!!
+
 ## Setup
 
 build main.wasm from main.go :
